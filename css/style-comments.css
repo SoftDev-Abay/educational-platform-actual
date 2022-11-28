@@ -1,0 +1,107 @@
+body{
+    background-color:#A9A9A9;
+}
+.type{
+font-family:Georgia;
+margin-top:10px;
+
+}
+.first{
+width:1000px;
+background-color:#262626;
+border-radius:20px;
+margin-left:15%;
+color:WhiteSmoke;
+margin-bottom:3%;
+} 
+.impname{
+border-radius:5px;
+border: 5px double  black;
+background-color: #d0e2bc;
+width: 20%;
+}
+.first input,h1,textarea,p{
+margin-left:30%;
+}
+.first p {
+margin-bottom:0;
+font-family:Courier New,Monaco;
+
+}
+textarea{
+	width: 45%;
+	height: 15%;
+	resize: none;
+    padding:10px;
+    border: 5px double  black;
+    background-color: white;
+    font-size:20px;
+    border-radius:10px;
+}
+
+.commentbutton {
+	width: 12%;
+	height:40px;
+	background-color: black;
+	margin-left:68%;
+    border:outset #a6a6a6;
+    border-radius: 25px;
+	color: #fff ;
+	font-family: arial;
+	font-weight:400;
+	cursor: pointer;
+    margin-bottom:3%;
+    margin-top:1%;
+    
+}
+.comment-box-container {
+
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    
+    margin-bottom: 4%;
+   
+    border-radius: 4px;
+    
+}
+
+.headdiv2{
+    margin-left:40%;
+}
+.item2{
+ flex-direction:column;
+background-color: white;
+border-radius:15px;
+border:solid #262626;
+width:70%;
+padding-top:15px;
+padding-bottom:20px;
+
+}
+.item1{
+
+}
+.item2 p {
+margin-left:18px;
+font-size:27px;
+font-family: "Times New Roman", Times, serif;
+}
+.username{
+font-size:37px;
+font-weight:bold;
+font-family:"Georgia",Serif;
+}
+.commentdate{
+font-family: Arial, sans-serif;
+font-size:20px;
+}
+.fa-comment
+{
+    color: #0080ff;
+}
+a:hover .fa-comment
+{
+    color: #0080ff;
+}
+
